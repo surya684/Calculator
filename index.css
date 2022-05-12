@@ -1,0 +1,121 @@
+.container
+{
+	border: 5px solid #000000;
+	padding-top: 4%;
+	padding-left: 3%;
+	padding-bottom: 35%;
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-top: 4%;
+	margin-bottom: 1%;
+}
+#ans
+{
+	width: 84.5%;
+	padding: 3%;
+	font-size: 100%;
+	font-weight: bold;
+	text-align: right;
+	border-color: #000000;
+}
+.arith
+{
+	position: absolute;
+	
+	margin-top: 4%;
+	width: 27%;
+}
+.bt
+{
+	background-color:royalblue;
+	color: white;
+	font-size: 105%;
+	width: 29%;
+	height: 45px;
+
+}
+.ac
+{
+	position: absolute;
+	margin-top: 4%;
+	width: 7%;
+	height: 6%;
+    margin-left:28%;
+}
+.acbtn
+{
+background-color: #FF0000;
+padding-top: 2%;
+color: white;
+font-size: 105%;
+width: 75%;
+height: 109px;
+}
+.num
+{
+	position: absolute;
+	margin-top: 14%;
+	width: 27%;
+}
+.nu
+{
+	background-color: #008000;
+	font-size: 105%;
+	color: white;
+	width: 29%;
+	height: 45px;
+}
+.equal
+{
+position: absolute;
+margin-left: 28%;
+margin-top: 14%;
+width: 7%;
+}
+.eq
+{
+	background-color: #DE3163;
+	color: white;
+	font-size: 105%;
+	width: 75%;
+	height: 233px;
+
+}
+
+@media only screen and (max-width:600px)
+{
+	.container
+    {
+	  padding-left: 8%;
+	  padding-top: 9%;
+    padding-bottom: 106%;
+    margin-right: 8%;
+    margin-left: 11%;
+    margin-top: 11%;
+    }
+    .arith
+     {
+     	margin-top: 7%;
+    width: 42%;
+    }
+    .ac 
+    {
+    	margin-top: 7%;
+    width: 17%;
+    margin-left: 51%;
+    }
+    .num
+    {
+    margin-top: 40%;	
+    width: 42%;
+    }
+    .equal
+    {
+    	margin-left: 51%;
+    margin-top: 40%;
+    width: 17%;
+    }
+}
+
+
+

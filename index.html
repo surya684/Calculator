@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Digital Calculator</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="textbox">
+			<input type="text" id="ans">
+		</div>
+		<div>
+		    <div class="arith">
+			    <button class="bt" onclick = "insert('+')">+</button>&nbsp;&nbsp;
+			    <button class="bt" onclick = "insert('-')">-</button>&nbsp;&nbsp;
+			    <button class="bt" onclick = "insert('*')">x</button><br><br>
+			    <button class="bt" onclick = "insert('/')">÷</button>&nbsp;&nbsp;
+			    <button class="bt" onclick = "insert('%')">%</button>
+		    </div>
+		    <div class="ac">
+		    	<button class="acbtn" onclick = "ans.value = '' ">AC</button><br><br>
+		    </div>
+		</div>
+		<div>
+			<div class="num">
+				<button class="nu" onclick = "insert('7')">7</button>&nbsp;&nbsp;
+				<button class="nu" onclick = "insert('8')">8</button>&nbsp;&nbsp;
+				<button class="nu" onclick = "insert('9')">9</button><br><br>
+				<button class="nu" onclick = "insert('4')">4</button>&nbsp;&nbsp;
+				<button class="nu" onclick = "insert('5')">5</button>&nbsp;&nbsp;
+				<button class="nu" onclick = "insert('6')">6</button><br><br>
+				<button class="nu" onclick = "insert('1')">1</button>&nbsp;&nbsp;
+				<button class="nu" onclick = "insert('2')">2</button>&nbsp;&nbsp;
+				<button class="nu" onclick = "insert('3')">3</button><br><br>
+				<button class="nu" onclick = "insert('0')">0</button>&nbsp;&nbsp;
+				<button class="nu" onclick = "insert('.')">.</button>&nbsp;&nbsp;
+				<button class="nu" onclick = "backspace()">Clr</button>
+			</div>
+			<div class="equal">
+				<button class="eq" onclick="equal()">=</button>
+			</div>
+		</div>
+	</div>	
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+
